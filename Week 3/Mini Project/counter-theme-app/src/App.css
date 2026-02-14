@@ -1,0 +1,70 @@
+.button-group {
+  margin-top: 15px;
+}
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+.light {
+  background: #f5f7fb;
+  color: #222;
+}
+.dark {
+  background: #1f1f1f;
+  color: #ffffff;
+}
+.app-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #c16588;
+  padding-bottom: 5px;
+  font-family: '2020 Sans', sans-serif;
+}
+.primary-btn {
+  padding: 8px 14px;
+  margin: 6px;
+  border:none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #c16588;
+  color: white;
+  font-weight: 500;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+}
+.counter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+.counter-card {
+  width: 220px;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgb(245, 196, 196);
+  color: black;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+.dark.counter-card {
+  background: #2c2c2c;
+  color: white;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  margin-top: 10px;
+}
+.total-text {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
